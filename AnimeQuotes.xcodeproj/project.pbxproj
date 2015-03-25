@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0681E2031AB1451D00B8D9B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681E2021AB1451D00B8D9B9 /* AppDelegate.swift */; };
+		0681E2051AB1451D00B8D9B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681E2041AB1451D00B8D9B9 /* ViewController.swift */; };
+		0681E2081AB1451D00B8D9B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0681E2061AB1451D00B8D9B9 /* Main.storyboard */; };
+		0681E20A1AB1451D00B8D9B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0681E2091AB1451D00B8D9B9 /* Images.xcassets */; };
+		0681E20D1AB1451D00B8D9B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0681E20B1AB1451D00B8D9B9 /* LaunchScreen.xib */; };
+		0681E2191AB1451D00B8D9B9 /* AnimeQuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681E2181AB1451D00B8D9B9 /* AnimeQuotesTests.swift */; };
+		0681E22C1AB1460E00B8D9B9 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681E22B1AB1460E00B8D9B9 /* InterfaceController.swift */; };
+		0681E22E1AB1460E00B8D9B9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681E22D1AB1460E00B8D9B9 /* NotificationController.swift */; };
+		0681E2301AB1460E00B8D9B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0681E22F1AB1460E00B8D9B9 /* Images.xcassets */; };
+		0681E2341AB1460F00B8D9B9 /* AnimeQuotes WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 0681E2331AB1460F00B8D9B9 /* AnimeQuotes WatchKit App.app */; };
+		0681E23C1AB1460F00B8D9B9 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0681E23A1AB1460F00B8D9B9 /* Interface.storyboard */; };
+		0681E23E1AB1460F00B8D9B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0681E23D1AB1460F00B8D9B9 /* Images.xcassets */; };
+		0681E2411AB1460F00B8D9B9 /* AnimeQuotes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0681E2261AB1460E00B8D9B9 /* AnimeQuotes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0681E2131AB1451D00B8D9B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0681E1F51AB1451D00B8D9B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0681E1FC1AB1451D00B8D9B9;
+			remoteInfo = AnimeQuotes;
+		};
+		0681E2351AB1460F00B8D9B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0681E1F51AB1451D00B8D9B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0681E2321AB1460F00B8D9B9;
+			remoteInfo = "AnimeQuotes WatchKit App";
+		};
+		0681E23F1AB1460F00B8D9B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0681E1F51AB1451D00B8D9B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0681E2251AB1460E00B8D9B9;
+			remoteInfo = "AnimeQuotes WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0681E2481AB1460F00B8D9B9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0681E2411AB1460F00B8D9B9 /* AnimeQuotes WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0681E1FD1AB1451D00B8D9B9 /* AnimeQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0681E2011AB1451D00B8D9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0681E2021AB1451D00B8D9B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0681E2041AB1451D00B8D9B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0681E2071AB1451D00B8D9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0681E2091AB1451D00B8D9B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0681E20C1AB1451D00B8D9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0681E2121AB1451D00B8D9B9 /* AnimeQuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeQuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0681E2171AB1451D00B8D9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0681E2181AB1451D00B8D9B9 /* AnimeQuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeQuotesTests.swift; sourceTree = "<group>"; };
+		0681E2261AB1460E00B8D9B9 /* AnimeQuotes WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AnimeQuotes WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0681E2291AB1460E00B8D9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0681E22A1AB1460E00B8D9B9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0681E22B1AB1460E00B8D9B9 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0681E22D1AB1460E00B8D9B9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0681E22F1AB1460E00B8D9B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0681E2331AB1460F00B8D9B9 /* AnimeQuotes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnimeQuotes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0681E2391AB1460F00B8D9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0681E23B1AB1460F00B8D9B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0681E23D1AB1460F00B8D9B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0681E1FA1AB1451D00B8D9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0681E20F1AB1451D00B8D9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0681E2231AB1460E00B8D9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0681E1F41AB1451D00B8D9B9 = {
+			isa = PBXGroup;
+			children = (
+				0681E1FF1AB1451D00B8D9B9 /* AnimeQuotes */,
+				0681E2151AB1451D00B8D9B9 /* AnimeQuotesTests */,
+				0681E2271AB1460E00B8D9B9 /* AnimeQuotes WatchKit Extension */,
+				0681E2371AB1460F00B8D9B9 /* AnimeQuotes WatchKit App */,
+				0681E1FE1AB1451D00B8D9B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0681E1FE1AB1451D00B8D9B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0681E1FD1AB1451D00B8D9B9 /* AnimeQuotes.app */,
+				0681E2121AB1451D00B8D9B9 /* AnimeQuotesTests.xctest */,
+				0681E2261AB1460E00B8D9B9 /* AnimeQuotes WatchKit Extension.appex */,
+				0681E2331AB1460F00B8D9B9 /* AnimeQuotes WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0681E1FF1AB1451D00B8D9B9 /* AnimeQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				0681E2021AB1451D00B8D9B9 /* AppDelegate.swift */,
+				0681E2041AB1451D00B8D9B9 /* ViewController.swift */,
+				0681E2061AB1451D00B8D9B9 /* Main.storyboard */,
+				0681E2091AB1451D00B8D9B9 /* Images.xcassets */,
+				0681E20B1AB1451D00B8D9B9 /* LaunchScreen.xib */,
+				0681E2001AB1451D00B8D9B9 /* Supporting Files */,
+			);
+			path = AnimeQuotes;
+			sourceTree = "<group>";
+		};
+		0681E2001AB1451D00B8D9B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0681E2011AB1451D00B8D9B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0681E2151AB1451D00B8D9B9 /* AnimeQuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0681E2181AB1451D00B8D9B9 /* AnimeQuotesTests.swift */,
+				0681E2161AB1451D00B8D9B9 /* Supporting Files */,
+			);
+			path = AnimeQuotesTests;
+			sourceTree = "<group>";
+		};
+		0681E2161AB1451D00B8D9B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0681E2171AB1451D00B8D9B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0681E2271AB1460E00B8D9B9 /* AnimeQuotes WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0681E22B1AB1460E00B8D9B9 /* InterfaceController.swift */,
+				0681E22D1AB1460E00B8D9B9 /* NotificationController.swift */,
+				0681E22F1AB1460E00B8D9B9 /* Images.xcassets */,
+				0681E2281AB1460E00B8D9B9 /* Supporting Files */,
+			);
+			path = "AnimeQuotes WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0681E2281AB1460E00B8D9B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0681E2291AB1460E00B8D9B9 /* Info.plist */,
+				0681E22A1AB1460E00B8D9B9 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0681E2371AB1460F00B8D9B9 /* AnimeQuotes WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0681E23A1AB1460F00B8D9B9 /* Interface.storyboard */,
+				0681E23D1AB1460F00B8D9B9 /* Images.xcassets */,
+				0681E2381AB1460F00B8D9B9 /* Supporting Files */,
+			);
+			path = "AnimeQuotes WatchKit App";
+			sourceTree = "<group>";
+		};
+		0681E2381AB1460F00B8D9B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0681E2391AB1460F00B8D9B9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0681E1FC1AB1451D00B8D9B9 /* AnimeQuotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0681E21C1AB1451D00B8D9B9 /* Build configuration list for PBXNativeTarget "AnimeQuotes" */;
+			buildPhases = (
+				0681E1F91AB1451D00B8D9B9 /* Sources */,
+				0681E1FA1AB1451D00B8D9B9 /* Frameworks */,
+				0681E1FB1AB1451D00B8D9B9 /* Resources */,
+				0681E2481AB1460F00B8D9B9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0681E2401AB1460F00B8D9B9 /* PBXTargetDependency */,
+			);
+			name = AnimeQuotes;
+			productName = AnimeQuotes;
+			productReference = 0681E1FD1AB1451D00B8D9B9 /* AnimeQuotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0681E2111AB1451D00B8D9B9 /* AnimeQuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0681E21F1AB1451D00B8D9B9 /* Build configuration list for PBXNativeTarget "AnimeQuotesTests" */;
+			buildPhases = (
+				0681E20E1AB1451D00B8D9B9 /* Sources */,
+				0681E20F1AB1451D00B8D9B9 /* Frameworks */,
+				0681E2101AB1451D00B8D9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0681E2141AB1451D00B8D9B9 /* PBXTargetDependency */,
+			);
+			name = AnimeQuotesTests;
+			productName = AnimeQuotesTests;
+			productReference = 0681E2121AB1451D00B8D9B9 /* AnimeQuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0681E2251AB1460E00B8D9B9 /* AnimeQuotes WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0681E2451AB1460F00B8D9B9 /* Build configuration list for PBXNativeTarget "AnimeQuotes WatchKit Extension" */;
+			buildPhases = (
+				0681E2221AB1460E00B8D9B9 /* Sources */,
+				0681E2231AB1460E00B8D9B9 /* Frameworks */,
+				0681E2241AB1460E00B8D9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0681E2361AB1460F00B8D9B9 /* PBXTargetDependency */,
+			);
+			name = "AnimeQuotes WatchKit Extension";
+			productName = "AnimeQuotes WatchKit Extension";
+			productReference = 0681E2261AB1460E00B8D9B9 /* AnimeQuotes WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		0681E2321AB1460F00B8D9B9 /* AnimeQuotes WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0681E2421AB1460F00B8D9B9 /* Build configuration list for PBXNativeTarget "AnimeQuotes WatchKit App" */;
+			buildPhases = (
+				0681E2311AB1460F00B8D9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AnimeQuotes WatchKit App";
+			productName = "AnimeQuotes WatchKit App";
+			productReference = 0681E2331AB1460F00B8D9B9 /* AnimeQuotes WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0681E1F51AB1451D00B8D9B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = BearBrosDevelopment;
+				TargetAttributes = {
+					0681E1FC1AB1451D00B8D9B9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0681E2111AB1451D00B8D9B9 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 0681E1FC1AB1451D00B8D9B9;
+					};
+					0681E2251AB1460E00B8D9B9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0681E2321AB1460F00B8D9B9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 0681E1F81AB1451D00B8D9B9 /* Build configuration list for PBXProject "AnimeQuotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0681E1F41AB1451D00B8D9B9;
+			productRefGroup = 0681E1FE1AB1451D00B8D9B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0681E1FC1AB1451D00B8D9B9 /* AnimeQuotes */,
+				0681E2111AB1451D00B8D9B9 /* AnimeQuotesTests */,
+				0681E2251AB1460E00B8D9B9 /* AnimeQuotes WatchKit Extension */,
+				0681E2321AB1460F00B8D9B9 /* AnimeQuotes WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0681E1FB1AB1451D00B8D9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0681E2081AB1451D00B8D9B9 /* Main.storyboard in Resources */,
+				0681E20D1AB1451D00B8D9B9 /* LaunchScreen.xib in Resources */,
+				0681E20A1AB1451D00B8D9B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0681E2101AB1451D00B8D9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0681E2241AB1460E00B8D9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0681E2341AB1460F00B8D9B9 /* AnimeQuotes WatchKit App.app in Resources */,
+				0681E2301AB1460E00B8D9B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0681E2311AB1460F00B8D9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0681E23C1AB1460F00B8D9B9 /* Interface.storyboard in Resources */,
+				0681E23E1AB1460F00B8D9B9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0681E1F91AB1451D00B8D9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0681E2051AB1451D00B8D9B9 /* ViewController.swift in Sources */,
+				0681E2031AB1451D00B8D9B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0681E20E1AB1451D00B8D9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0681E2191AB1451D00B8D9B9 /* AnimeQuotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0681E2221AB1460E00B8D9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0681E22E1AB1460E00B8D9B9 /* NotificationController.swift in Sources */,
+				0681E22C1AB1460E00B8D9B9 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0681E2141AB1451D00B8D9B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0681E1FC1AB1451D00B8D9B9 /* AnimeQuotes */;
+			targetProxy = 0681E2131AB1451D00B8D9B9 /* PBXContainerItemProxy */;
+		};
+		0681E2361AB1460F00B8D9B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0681E2321AB1460F00B8D9B9 /* AnimeQuotes WatchKit App */;
+			targetProxy = 0681E2351AB1460F00B8D9B9 /* PBXContainerItemProxy */;
+		};
+		0681E2401AB1460F00B8D9B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0681E2251AB1460E00B8D9B9 /* AnimeQuotes WatchKit Extension */;
+			targetProxy = 0681E23F1AB1460F00B8D9B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0681E2061AB1451D00B8D9B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0681E2071AB1451D00B8D9B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0681E20B1AB1451D00B8D9B9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0681E20C1AB1451D00B8D9B9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0681E23A1AB1460F00B8D9B9 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0681E23B1AB1460F00B8D9B9 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0681E21A1AB1451D00B8D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0681E21B1AB1451D00B8D9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0681E21D1AB1451D00B8D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = AnimeQuotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0681E21E1AB1451D00B8D9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = AnimeQuotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0681E2201AB1451D00B8D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimeQuotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeQuotes.app/AnimeQuotes";
+			};
+			name = Debug;
+		};
+		0681E2211AB1451D00B8D9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnimeQuotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeQuotes.app/AnimeQuotes";
+			};
+			name = Release;
+		};
+		0681E2431AB1460F00B8D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = AnimeQuotes_WatchKit_Extension;
+				INFOPLIST_FILE = "AnimeQuotes WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		0681E2441AB1460F00B8D9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = AnimeQuotes_WatchKit_Extension;
+				INFOPLIST_FILE = "AnimeQuotes WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		0681E2461AB1460F00B8D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AnimeQuotes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0681E2471AB1460F00B8D9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AnimeQuotes WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0681E1F81AB1451D00B8D9B9 /* Build configuration list for PBXProject "AnimeQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0681E21A1AB1451D00B8D9B9 /* Debug */,
+				0681E21B1AB1451D00B8D9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0681E21C1AB1451D00B8D9B9 /* Build configuration list for PBXNativeTarget "AnimeQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0681E21D1AB1451D00B8D9B9 /* Debug */,
+				0681E21E1AB1451D00B8D9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0681E21F1AB1451D00B8D9B9 /* Build configuration list for PBXNativeTarget "AnimeQuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0681E2201AB1451D00B8D9B9 /* Debug */,
+				0681E2211AB1451D00B8D9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0681E2421AB1460F00B8D9B9 /* Build configuration list for PBXNativeTarget "AnimeQuotes WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0681E2431AB1460F00B8D9B9 /* Debug */,
+				0681E2441AB1460F00B8D9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0681E2451AB1460F00B8D9B9 /* Build configuration list for PBXNativeTarget "AnimeQuotes WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0681E2461AB1460F00B8D9B9 /* Debug */,
+				0681E2471AB1460F00B8D9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0681E1F51AB1451D00B8D9B9 /* Project object */;
+}
